@@ -1,0 +1,79 @@
+
+
+*{
+  transition: 0.5s;
+}
+
+
+.detail{
+  margin-top: 5rem;
+}
+
+.details{
+  color: #d3d1d1;
+  font-size: 25px;
+  width: 80%;
+  text-align: center;
+}
+
+.details h1{
+  font-size: 40px;
+ color: white;
+}
+
+
+.rust, .ark, .valheim{
+width: 33.3%;
+text-align: center;
+height: 15rem;
+-webkit-touch-callout: none; 
+-webkit-user-select: none;
+-moz-user-select: none; 
+-ms-user-select: none; 
+border-radius: 5px;
+margin: 2rem;
+padding-top: 5rem;
+box-shadow: 0 0 20px #141414;
+}
+
+.rust h3, .ark h3, .valheim h3{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  width: 80%;
+  margin: auto;
+  font-size: 45px;
+  top: -2rem;
+  position: relative;
+
+}
+
+
+.rust{
+  background-image: url(../img/thumbnail/rust.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.ark{
+  background-image: url(../img/thumbnail/ark.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.valheim{
+  background-image: url(../img/thumbnail/valheim.png);
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width:  885px) {
+ 
+  .games{
+    display: grid;
+  }
+  .rust, .ark, .valheim{
+    width: 100%;
+  }
+
+}

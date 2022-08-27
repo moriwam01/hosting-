@@ -1,0 +1,118 @@
+.contentdownload{
+  margin-top: 20rem;
+}
+
+
+.download-list__wrap {
+  margin: auto;
+  max-width: 400px;
+  padding: 3px 0;
+}
+
+.download-list {
+  list-style: none;
+  padding: 0 12px 4px;
+  margin: 0;
+}
+
+.button-area {
+  opacity: 0;
+  text-align: right;
+  padding: 12px;
+  -webkit-transition: opacity 600ms ease-out;
+  transition: opacity 600ms ease-out;
+}
+
+.button-area.show {
+  opacity: 1;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-top: 10px;
+  padding: 4px 0;
+  background-color: #1a1a1a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+.item .src {
+  grid-column: 2/8;
+  color: white;
+  padding: 0 0.3em;
+  font-size: 15px;
+
+}
+.item .src .name {
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.item .src .ext {
+  grid-column: 2/6;
+  float: left;
+}
+.item .src .size {
+  grid-column: 2/6;
+  text-align: right;
+  text-align: center;
+  margin-top: 1rem;
+  
+}
+.item .btn {
+  grid-column: 2/8;
+  margin: 4px;
+  
+}
+.item .btn a {
+  color: #ffffff;
+  padding: 0.5em 4em;
+  text-decoration: none;
+  transition: background-color 300ms linear;
+  color: white;
+}
+.item .btn a:hover {
+  background: #1692e9;
+}
+
+.item > div:not(.src) {
+  display: grid;
+  place-items: center;
+}
+
+.js-clear-btn {
+  font-size: 15px;
+  color: white;
+}
+
+.dl-all-btn, .btn a {
+  background-color: #1692e9;
+  border-radius: 5px;
+  color: white;
+}
+
+.dl-all-btn {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1em;
+  padding: 0.8em 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
